@@ -1,9 +1,10 @@
 package edu.tcu.cs.hogwartsartifactsonline.artifact.converter;
 
-import edu.tcu.cs.hogwartsartifactsonline.artifact.Artifact;
-import edu.tcu.cs.hogwartsartifactsonline.artifact.dto.ArtifactDto;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
+
+import edu.tcu.cs.hogwartsartifactsonline.artifact.Artifact;
+import edu.tcu.cs.hogwartsartifactsonline.artifact.dto.ArtifactDto;
 
 @Component
 public class ArtifactDtoToArtifactConverter implements Converter<ArtifactDto, Artifact> {
